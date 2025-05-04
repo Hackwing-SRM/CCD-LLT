@@ -21,7 +21,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v2
         with:
           role-to-assume: arn:aws:iam::767397943090:role/ccd-llt
-          role-session-name: github-actions-session
+          role-session-name: ccd-llt
           aws-region: ap-south-1
 
       - name: Login to Amazon ECR
